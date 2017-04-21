@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_provider_for_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rex_wang.allapplication.map.ProviderForMap">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_map_provider"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000"
+        android:minHeight="?attr/actionBarSize" />
+
+    <WebView
+        android:id="@+id/webview_map_provider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_map_provider"
+        android:layout_marginTop="10sp" />
+</RelativeLayout>
